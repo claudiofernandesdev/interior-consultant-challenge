@@ -119,16 +119,16 @@ main {
 
 .hero .hero-img img {
 	position: relative;
-	max-width: 735px;
+	max-width: 48rem;
 	z-index: 0;
 }
 
 .card {
 	position: absolute;
-	margin-top: -80px;
-	right: 120px;
+	margin-top: -5rem;
+	right: 7.5rem;
 	z-index: 9;
-	width: 410px;
+	width: 26.5rem;
 	background: var(--bg-color);
 	display: flex;
 	flex-direction: column;
@@ -141,8 +141,8 @@ main {
 }
 
 .card .card-header img {
-	width: 50px;
-	height: 50px;
+	width: 3.125rem;
+	height: 3.125rem;
 	object-fit: cover;
 	object-position: center;
 	border-radius: 50%;
@@ -156,26 +156,27 @@ main {
 }
 
 .card .card-header div h3 {
-	font-size: 14px;
+	font-size: 0.875rem;
 }
 
 .card .card-header div p {
-	font-size: 12px;
+	font-size: 0.75rem;
 }
 
 .card-body h3 {
-	max-width: 280px;
+	max-width: 17.5rem;
 	font-family: var(--text-title-font);
 	font-size: 1.5rem;
 	font-weight: 700;
 }
 
 footer p {
+	height: 4.5rem;
 	color: var(--grey-color-text);
 	font-family: var(--text-body-font);
 	font-size: 1rem;
 	font-weight: 500;
-	padding: 2rem 0rem;
+	padding: 2rem 0;
 	text-align: center;
 }
 
@@ -205,7 +206,7 @@ footer p span a {
         z-index: 100;
 		position: fixed;
 		right: -100%;
-		top: 70px;
+		top: 4.5rem;
 		gap: 0;
 		background: var(--bg-color);
 		flex-direction: column;
@@ -258,10 +259,10 @@ footer p span a {
 
     .card {
         position: absolute;
-        margin-top: -60px;
-        right: 40px;
+        margin-top: -3.75rem;
+        right: 2.5rem;
         z-index: 99;
-        width: 300px;
+        width: 18.75rem;
         background: var(--bg-color);
         display: flex;
         flex-direction: column;
@@ -270,8 +271,8 @@ footer p span a {
     }
 
     .card .card-header img {
-        width: 36px;
-        height: 36px;
+        width: 2.25rem;
+        height: 2.25rem;
         object-fit: cover;
         object-position: center;
         border-radius: 50%;
@@ -285,15 +286,15 @@ footer p span a {
     }
     
     .card .card-header div h3 {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
     
     .card .card-header div p {
-        font-size: 10px;
+        font-size: 0.625rem;
     }
     
     .card-body h3 {
-        max-width: 210px;
+        max-width: 13.125rem;
         font-size: 1.125rem;
     }
 
